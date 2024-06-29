@@ -4,7 +4,7 @@ export const EN: I18N = {
   biography: [
     { text: 'Undergraduate at Keio Univ. The Faculty of Environment and Information Studies' },
     { text: 'Murai Lab, Arch Research Group', url: 'https://arch.sfc.wide.ad.jp/' },
-    { text: 'Software Engineer at Code for Japan'},
+    { text: 'Software Engineer Intern at RightTouch Inc.', url: 'https://righttouch.co.jp/' },
   ],
   qualifications: [
     { text: 'Fundamental of Engineering (Japanese)' },
