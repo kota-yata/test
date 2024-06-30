@@ -6,8 +6,8 @@ export interface I18N {
   communication: TextLinks[],
   interests: string,
   works: {
+    featured: TextLinks[],
     algorithmImplementations: TextLinks[],
-    webApps: TextLinks[],
     others: TextLinks[]
   },
   news: News[]

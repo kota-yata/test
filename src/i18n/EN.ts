@@ -27,22 +27,22 @@ export const EN: I18N = {
   I've even created a dystopian app once that scores smiles using image recognition, inspired by 1984.
   `,
   works: {
+    featured: [
+      { text: 'P2P Connection over QUIC', url: 'https://github.com/kota-yata/2023f-wip' },
+      { text: 'Instant Drop - File Transfer App on WebRTC', url: 'https://github.com/kota-yata/instant-drop' },
+      { text: 'TCP Simultaneous Open', url: 'https://github.com/kota-yata/tcp-simultaneous-open' },
+      { text: 'STUN Server from scratch in Rust', url: 'https://github.com/kota-yata/organic-stun' },
+    ],
     algorithmImplementations: [
       { text: 'SHA-256', url: 'https://github.com/kota-yata/organic-sha256' },
       { text: 'Huffman Coding', url: 'https://github.com/kota-yata/deno-huffman' },
       { text: 'Base64', url: 'https://github.com/kota-yata/ky_base64' },
       { text: 'RSA', url: 'https://github.com/kota-yata/rsa' },
     ],
-    webApps: [
-      { text: 'Instant Drop - File Transfer App on WebRTC', url: 'https://github.com/kota-yata/instant-drop' },
-      { text: 'Markdown Editor', url: 'https://github.com/kota-yata/editor.kota-yata.com' },
-      { text: 'Smile Score', url: 'https://github.com/kota-yata/SmileScore' },
-    ],
     others: [
       { text: 'Signaling Server', url: 'https://github.com/kota-yata/instant-drop-server' },
       { text: 'Meta Getter', url: 'https://github.com/kota-yata/meta-getter' },
-      { text: 'TCP Simultaneous Open', url: 'https://github.com/kota-yata/tcp-simultaneous-open' },
-      { text: 'STUN Server from scratch in Rust', url: 'https://github.com/kota-yata/organic-stun' }
+      { text: 'Smile Score', url: 'https://github.com/kota-yata/SmileScore' },
     ]
   },
   news: []

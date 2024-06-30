@@ -4,16 +4,16 @@
   import { i18n } from '../../i18n/index';
   import { countryCode } from '../../utils/store';
 
+  $: featured = i18n[$countryCode].works.featured as TextLinks[];
   $: algorithmImplementations = i18n[$countryCode].works.algorithmImplementations as TextLinks[];
-  $: webApps = i18n[$countryCode].works.webApps as TextLinks[];
   $: others = i18n[$countryCode].works.others as TextLinks[];
 </script>
 
 <div class="container">
   <h2>Works</h2>
   <div class="works">
+    <div><ListSection title="Featured" texts={featured}/></div>
     <div><ListSection title="Algorithm Implementation" texts={algorithmImplementations}/></div>
-    <div><ListSection title="Web Apps" texts={webApps}/></div>
     <div><ListSection title="Others" texts={others}/></div>
   </div>
 </div>

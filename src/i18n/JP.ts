@@ -22,22 +22,22 @@ export const JP: I18N = {
   個人制作物としてはWebアプリが多いですが、今後は主にプロトコルやサーバーの実装に力を入れていきます。
   `,
   works: {
+    featured: [
+      { text: 'QUIC上でのP2P接続実装', url: 'https://github.com/kota-yata/2023f-wip' },
+      { text: 'WebRTCを用いたファイル転送アプリ (Instant Drop)', url: 'https://github.com/kota-yata/instant-drop' },
+      { text: 'TCP Simultaneous Open実装', url: 'https://github.com/kota-yata/tcp-simultaneous-open' },
+      { text: 'STUNサーバーのフルスクラッチRust実装', url: 'https://github.com/kota-yata/organic-stun' },
+    ],
     algorithmImplementations: [
       { text: 'SHA-256', url: 'https://github.com/kota-yata/organic-sha256' },
       { text: 'ハフマン符号', url: 'https://github.com/kota-yata/deno-huffman' },
       { text: 'Base64', url: 'https://github.com/kota-yata/ky_base64' },
       { text: 'RSA', url: 'https://github.com/kota-yata/rsa' },
     ],
-    webApps: [
-      { text: 'WebRTCを用いたファイル転送アプリ (Instant Drop)', url: 'https://github.com/kota-yata/instant-drop' },
-      { text: 'マークダウンエディタ', url: 'https://github.com/kota-yata/editor.kota-yata.com' },
-      { text: '笑顔の点数をつけるアプリ', url: 'https://github.com/kota-yata/SmileScore' },
-    ],
     others: [
-      { text: 'シグナリングサーバー', url: 'https://github.com/kota-yata/instant-drop-server' },
+      { text: 'WebRTCシグナリングサーバー', url: 'https://github.com/kota-yata/instant-drop-server' },
       { text: 'Webページのmetaタグを取得するサーバー', url: 'https://github.com/kota-yata/meta-getter' },
-      { text: 'TCP Simultaneous Open実装', url: 'https://github.com/kota-yata/tcp-simultaneous-open' },
-      { text: 'STUNサーバーのフルスクラッチRUST実装', url: 'https://github.com/kota-yata/organic-stun' }
+      { text: '笑顔の点数をつけるアプリ', url: 'https://github.com/kota-yata/SmileScore' },
     ]
   },
   news: [
