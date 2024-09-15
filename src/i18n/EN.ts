@@ -28,6 +28,7 @@ export const EN: I18N = {
   `,
   works: {
     featured: [
+      { text: 'Video Call over MoQT', url: 'https://github.com/kota-yata/media-over-quic-experiment' },
       { text: 'P2P Connection over QUIC', url: 'https://github.com/kota-yata/2023f-wip' },
       { text: 'Instant Drop - File Transfer App on WebRTC', url: 'https://github.com/kota-yata/instant-drop' },
       { text: 'TCP Simultaneous Open', url: 'https://github.com/kota-yata/tcp-simultaneous-open' },

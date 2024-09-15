@@ -17,12 +17,13 @@ export const JP: I18N = {
     { text: '日本語、英語対応可' },
   ],
   interests: `
-  主に分散システム、P2P通信、ネットワークプロトコルの実装に興味があり、研究や趣味での開発を行っています。ネットワークプロトコルについては特にQUICやHTTP/3を取り巻く新しい仕様を追うことに興味を持っています。
-  業務経験としてはNuxtやSvelteなど各種フレームワークを用いたWebフロントエンド開発、GCPを用いたインフラ構築や<a href="https://tech.plaid.co.jp/mongo-atlas-to-bigquery">データベースのレプリケーション機構開発</a>などの経験があります。
-  個人制作物としてはWebアプリが多いですが、今後は主にプロトコルやサーバーの実装に力を入れていきます。
+  主にP2P通信，ネットワークプロトコル，ライブストリーミングに興味を持ち，研究や趣味で開発を行っています．
+  業務では新興メディアプロトコルMedia over QUIC Transport（MoQT）とWebRTCの性能評価や<a href="https://tech.plaid.co.jp/mongo-atlas-to-bigquery">データベースのリアルタイムマイグレーション</a>など，インフラからバックエンドまで幅広い領域に興味ベースで関わっています．
+  個人開発ではMoQTのライブ配信デモやQUICでのP2P接続実装，WebRTCを用いたアプリ開発など，ネットワーク技術を利用した開発を多く行っています．現時点で個人開発はWebアプリが主ですが，最近はサーバーやプロトコルの実装に力を入れています．
   `,
   works: {
     featured: [
+      { text: 'Media over QUIC Transportライブ配信デモ', url: 'https://github.com/kota-yata/media-over-quic-experiment' },
       { text: 'QUIC上でのP2P接続実装', url: 'https://github.com/kota-yata/2023f-wip' },
       { text: 'WebRTCを用いたファイル転送アプリ (Instant Drop)', url: 'https://github.com/kota-yata/instant-drop' },
       { text: 'TCP Simultaneous Open実装', url: 'https://github.com/kota-yata/tcp-simultaneous-open' },
