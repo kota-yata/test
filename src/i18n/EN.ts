@@ -3,8 +3,8 @@ import type { I18N } from './i18n';
 export const EN: I18N = {
   biography: [
     { text: 'Undergraduate at Keio Univ. The Faculty of Environment and Information Studies' },
-    { text: 'Murai Lab, Arch Research Group', url: 'https://arch.sfc.wide.ad.jp/' },
-    { text: 'Software Engineer Intern at RightTouch Inc.', url: 'https://righttouch.co.jp/' },
+    { text: 'Nakamura Lab, Arch Research Group', url: 'https://arch.sfc.wide.ad.jp/' },
+    // { text: 'Software Engineer Intern at RightTouch Inc.', url: 'https://righttouch.co.jp/' },
   ],
   qualifications: [
     { text: 'Fundamental of Engineering (Japanese)' },
@@ -21,11 +21,7 @@ export const EN: I18N = {
   where you can establish TCP connection without having the conventional three-way handshake. I've also written SHA-256 in TypeScript,
   and have been working on implementing Media over QUIC Transport, a live streaming protocol on HTTP/3.<br>
   I also write web apps for fun and research purpose sometimes. As I like tinkering network connection on an application layer WebRTC, WebSocket and WebTransport are what I usually code with
-  (e.g. <a href="https://github.com/kota-yata/instant-drop">Instant Drop</a>).<br><br>
-  Besides computer science and software engineering, I spend a great deal of time reading.
-  Sometimes it's just for fun, sometimes for learning English or for self enlightenment. I enjoy reading dystopian novels the most, such as "1984", "Don't let me go" or "Atlas Shrugged".
-  I've even created a dystopian app once that scores smiles using image recognition, inspired by 1984.
-  `,
+  (e.g. <a href="https://github.com/kota-yata/instant-drop">Instant Drop</a>).<br><br>`,
   works: {
     featured: [
       { text: 'Video Call over MoQT', url: 'https://github.com/kota-yata/media-over-quic-experiment' },

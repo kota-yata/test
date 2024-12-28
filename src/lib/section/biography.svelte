@@ -25,16 +25,18 @@
 
 <div class="section">
   {#if !isMobileDevice}
-  <h2>Biography</h2>
+  <h2>KOTA YATAGAI</h2>
   {/if}
   <div class="main">
-    <ListSection texts={bio} />
+    <div>
+      <ListSection texts={bio} />
+      <div class="links">
+        {#each links as link}
+          <a href={link.url}><img alt={link.name} src="/{link.name}.svg" width="30px" height="30px" /></a>
+        {/each}
+      </div>
+    </div>
     <img alt="profile" src="/me.webp" />
-  </div>
-  <div class="links">
-    {#each links as link}
-      <a href={link.url}><img alt={link.name} src="/{link.name}.svg" width="30px" height="30px" /></a>
-    {/each}
   </div>
   <div class="bios">
     <div class="bios-left">
@@ -50,20 +52,23 @@
 
 <style lang="scss">
   .section {
+    min-height: calc(100vh - 100px); // header 50px + footer 50px
+    overflow: hidden;
     .main {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      img {
+      & > img {
         border-radius: 50%;
         filter: contrast(0.9);
         width: 200px;
         height: 200px;
       }
-    }
-    .links {
-      img {
-        margin-right: 30px;
+      .links {
+        margin-top: 1rem;
+        img {
+          margin-right: 30px;
+        }
       }
     }
     .bios {
@@ -85,17 +90,17 @@
       .main {
         flex-direction: column-reverse;
         justify-content: center;
-        img {
+        & > img {
           width: 150px;
           height: 150px;
           margin-bottom: 30px;
         }
-      }
-      .links {
-        margin-top: 20px;
-        text-align: center;
-        img {
-          margin: 0 15px;
+        .links {
+          margin-top: 20px;
+          text-align: center;
+          img {
+            margin: 0 15px;
+          }
         }
       }
       .bios {

@@ -9,7 +9,7 @@
   <title>KOTA YATAGAI - 八谷航太</title>
 </svelte:head>
 
-<Top />
+<!-- <Top /> -->
 <Biography />
-<Works />
+<!-- <Works /> -->
 <!-- <News /> -->

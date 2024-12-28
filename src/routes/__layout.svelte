@@ -16,16 +16,20 @@ import { onMount } from 'svelte';
 </script>
 
 <header>
-  <select
-    name="language"
-    bind:value={$countryCode}
-    on:change={() => {
-      sessionStorage.setItem('countryCode', $countryCode);
-    }}
-  >
-    <option value="JP">JP</option>
-    <option value="EN">EN</option>
-  </select>
+  <div></div>
+  <div>
+    <div class="menu"></div>
+    <select
+      name="language"
+      bind:value={$countryCode}
+      on:change={() => {
+        sessionStorage.setItem('countryCode', $countryCode);
+      }}
+    >
+      <option value="JP">JP</option>
+      <option value="EN">EN</option>
+    </select>
+  </div>
 </header>
 
 <main>
@@ -37,10 +41,10 @@ import { onMount } from 'svelte';
 <style lang="scss">
   @import '../styles/variable.scss';
   header {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
   }
   main {
     margin: 0 auto;
@@ -50,6 +54,6 @@ import { onMount } from 'svelte';
   footer {
     width: 100%;
     text-align: center;
-    padding-bottom: 10px;
+    height: 50px;
   }
 </style>
