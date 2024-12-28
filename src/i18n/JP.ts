@@ -3,8 +3,7 @@ import type { I18N } from './i18n';
 export const JP: I18N = {
   biography: [
     { text: '慶應義塾大学 環境情報学部2年' },
-    { text: '村井研究室 Arch研究グループ', url: 'https://arch.sfc.wide.ad.jp/' },
-    { text: '株式会社RightTouch Webエンジニアインターン', url: 'https://righttouch.co.jp/' },
+    { text: '中村研究室 Arch研究グループ', url: 'https://arch.sfc.wide.ad.jp/' },
     { text: 'blog.kota-yata.com', url: 'https://blog.kota-yata.com' },
   ],
   qualifications: [
