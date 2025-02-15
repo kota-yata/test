@@ -36,7 +36,7 @@ import { onMount } from 'svelte';
   <slot />
 </main>
 
-<footer>@ 2021 Kota Yatagai</footer>
+<footer>© 2021-2025 Kota Yatagai</footer>
 
 <style lang="scss">
   @import '../styles/variable.scss';

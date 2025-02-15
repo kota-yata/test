@@ -26,9 +26,7 @@ export const EN: I18N = {
     featured: [
       { text: 'Video Call over MoQT', url: 'https://github.com/kota-yata/media-over-quic-experiment' },
       { text: 'P2P Connection over QUIC', url: 'https://github.com/kota-yata/2023f-wip' },
-      { text: 'Instant Drop - File Transfer App on WebRTC', url: 'https://github.com/kota-yata/instant-drop' },
-      { text: 'TCP Simultaneous Open', url: 'https://github.com/kota-yata/tcp-simultaneous-open' },
-      { text: 'STUN Server from scratch in Rust', url: 'https://github.com/kota-yata/organic-stun' },
+      { text: 'RTP over QUIC implementation', url: 'https://github.com/kota-yata/roq-rust' },
     ],
     algorithmImplementations: [
       { text: 'SHA-256', url: 'https://github.com/kota-yata/organic-sha256' },
@@ -37,9 +35,10 @@ export const EN: I18N = {
       { text: 'RSA', url: 'https://github.com/kota-yata/rsa' },
     ],
     others: [
+      { text: 'Instant Drop - File Transfer App on WebRTC', url: 'https://github.com/kota-yata/instant-drop' },
+      { text: 'TCP Simultaneous Open', url: 'https://github.com/kota-yata/tcp-simultaneous-open' },
       { text: 'Signaling Server', url: 'https://github.com/kota-yata/instant-drop-server' },
-      { text: 'Meta Getter', url: 'https://github.com/kota-yata/meta-getter' },
-      { text: 'Smile Score', url: 'https://github.com/kota-yata/SmileScore' },
+      { text: 'STUN Server from scratch in Rust', url: 'https://github.com/kota-yata/organic-stun' },
     ]
   },
   news: []

@@ -3,6 +3,7 @@ import type { I18N } from './i18n';
 export const JP: I18N = {
   biography: [
     { text: '慶應義塾大学 環境情報学部2年' },
+    { text: '株式会社AbemaTV コンテンツ配信エンジニアインターン' },
     { text: '中村研究室 Arch研究グループ', url: 'https://arch.sfc.wide.ad.jp/' },
     { text: 'blog.kota-yata.com', url: 'https://blog.kota-yata.com' },
   ],
@@ -24,20 +25,19 @@ export const JP: I18N = {
     featured: [
       { text: 'Media over QUIC Transportライブ配信デモ', url: 'https://github.com/kota-yata/media-over-quic-experiment' },
       { text: 'QUIC上でのP2P接続実装', url: 'https://github.com/kota-yata/2023f-wip' },
-      { text: 'WebRTCを用いたファイル転送アプリ (Instant Drop)', url: 'https://github.com/kota-yata/instant-drop' },
-      { text: 'TCP Simultaneous Open実装', url: 'https://github.com/kota-yata/tcp-simultaneous-open' },
-      { text: 'STUNサーバーのフルスクラッチRust実装', url: 'https://github.com/kota-yata/organic-stun' },
+      { text: 'RTP over QUIC実装', url: 'https://github.com/kota-yata/roq-rust' }
     ],
     algorithmImplementations: [
       { text: 'SHA-256', url: 'https://github.com/kota-yata/organic-sha256' },
       { text: 'ハフマン符号', url: 'https://github.com/kota-yata/deno-huffman' },
       { text: 'Base64', url: 'https://github.com/kota-yata/ky_base64' },
       { text: 'RSA', url: 'https://github.com/kota-yata/rsa' },
+      { text: 'WebRTCを用いたファイル転送アプリ (Instant Drop)', url: 'https://github.com/kota-yata/instant-drop' },
+      { text: 'TCP Simultaneous Open実装', url: 'https://github.com/kota-yata/tcp-simultaneous-open' },
+      { text: 'STUNサーバーのフルスクラッチRust実装', url: 'https://github.com/kota-yata/organic-stun' },
     ],
     others: [
       { text: 'WebRTCシグナリングサーバー', url: 'https://github.com/kota-yata/instant-drop-server' },
-      { text: 'Webページのmetaタグを取得するサーバー', url: 'https://github.com/kota-yata/meta-getter' },
-      { text: '笑顔の点数をつけるアプリ', url: 'https://github.com/kota-yata/SmileScore' },
     ]
   },
   news: [
